@@ -1,3 +1,5 @@
+RESPOSTAS E PRINTS
+
 Etapa 1 – Introdução & Contextualização
 1- Usar uma chamada HTTP síncrona direta trava o serviço de upload, deixando-o lento e vulnerável a falhas. Com mensageria, o upload apenas "avisa" sobre a nova imagem e segue em frente, tornando o sistema mais rápido, robusto e escalável.Suas Desvantagens,Latência para o Usuário,Falhas em Cascata,Acoplamento Forte e Baixa Escalabilidade,A mensageria resolve isso ao desacoplar os serviços, tornando o sistema mais rápido e resiliente.
 
